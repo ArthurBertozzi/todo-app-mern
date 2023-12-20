@@ -1,0 +1,39 @@
+# Ignore node_modules (diretório gerado pelo npm)
+node_modules/
+
+# Ignore arquivos de build do React
+build/
+dist/
+
+# Ignore arquivos temporários
+*.log
+*.swp
+
+# Ignore arquivos de configuração local
+.env
+
+# Ignore arquivos de configuração do usuário (por exemplo, IDE, editor)
+.idea/
+.vscode/
+
+# Ignore arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de registro ou dados
+*.db
+*.sqlite
+
+# Ignore arquivos de backup
+*.bak
+*.backup
+
+# Ignore arquivos de cache
+.cache/
+
+# Ignore arquivos de produção
+*.min.js
+*.min.css
+
+# Ignore arquivos de teste (se você estiver usando um diretório separado para testes)
+tests/
